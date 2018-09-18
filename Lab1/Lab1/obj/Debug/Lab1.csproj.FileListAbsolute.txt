@@ -1,0 +1,14 @@
+C:\Users\S01156444\Desktop\Lab1\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\S01156444\Desktop\Lab1\Lab1\bin\Debug\Lab1.exe
+C:\Users\S01156444\Desktop\Lab1\Lab1\bin\Debug\Lab1.pdb
+C:\Users\S01156444\Desktop\Lab1\Lab1\obj\Debug\Lab1.csprojAssemblyReference.cache
+C:\Users\S01156444\Desktop\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+C:\Users\S01156444\Desktop\Lab1\Lab1\obj\Debug\Lab1.exe
+C:\Users\S01156444\Desktop\Lab1\Lab1\obj\Debug\Lab1.pdb
+C:\Users\S01156444\Desktop\repository\Lab1\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\S01156444\Desktop\repository\Lab1\Lab1\bin\Debug\Lab1.exe
+C:\Users\S01156444\Desktop\repository\Lab1\Lab1\bin\Debug\Lab1.pdb
+C:\Users\S01156444\Desktop\repository\Lab1\Lab1\obj\Debug\Lab1.csprojAssemblyReference.cache
+C:\Users\S01156444\Desktop\repository\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+C:\Users\S01156444\Desktop\repository\Lab1\Lab1\obj\Debug\Lab1.exe
+C:\Users\S01156444\Desktop\repository\Lab1\Lab1\obj\Debug\Lab1.pdb
