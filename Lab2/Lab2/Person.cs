@@ -7,7 +7,8 @@ namespace Lab2
         public string firstName;
         public string lastName;
         public int age;
-        public Person spouse;
+        public Person Spouse;
+        public static double SumOfAllAges = 0;
 
 
         public void AskForData()
@@ -18,16 +19,27 @@ namespace Lab2
             this.lastName = System.Console.ReadLine();
             System.Console.Write("Age: ");
             this.age = int.Parse(System.Console.ReadLine());
-            System.Console.Write("Spouse's First Name: ");
-            this.spouse.firstName = System.Console.ReadLine();
-            System.Console.Write("Spouse's Age: ");
-            this.spouse.age = int.Parse(System.Console.ReadLine());
+            System.Console.WriteLine("");
+            Person.SumOfAllAges += this.age;
+            
+        }
+        public void CreateSpouse()
+        {
+            this.Spouse = new Person();
+            this.Spouse.AskForData();
+            this.Spouse.Spouse = this;
+
         }
         public string GetFirstandLast()
         {
             return this.lastName + ", " + this.firstName + " (" + this.age + ")";
         }
-       
+        public static double AverageAge()
+        {
+            double x = 0;
+            x = SumOfAllAges / 4;
+            return x;
+        }
 
 
     }
