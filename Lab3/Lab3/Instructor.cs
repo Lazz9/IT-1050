@@ -8,8 +8,8 @@ namespace Lab3
 {
     class Instructor
     {
-        private string Name;
-        private string CourseName;
+        public string Name;
+        public string CourseName;
 
         public Instructor()
         {
@@ -24,7 +24,13 @@ namespace Lab3
 
         public void PrintTeacher()
         {
-            System.Console.WriteLine(this.Name + ", " + this.CourseName);
+            System.Console.WriteLine(this.Name + ", teaches " + this.CourseName);
+        }
+        public void ChangeGrade(Student student, int theirGrade)
+        {
+            student.Grade = theirGrade;
+            System.Console.WriteLine(this.Name + " gave " + student.Name + " a grade of: " + theirGrade);
+
         }
     }
 }

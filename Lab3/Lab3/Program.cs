@@ -16,7 +16,17 @@ namespace Lab3
             Student joe = new Student("Joe", john);
             Student melissa = new Student("Melissa", mike);
             Student matt = new Student("Matt", mike);
-            
+
+            john.ChangeGrade(jane, 95);
+            john.ChangeGrade(joe, 85);
+            mike.ChangeGrade(melissa, 90);
+            mike.ChangeGrade(matt, 92);
+
+            jane.PrintStudent();
+            joe.PrintStudent();
+            melissa.PrintStudent();
+            matt.PrintStudent();
+           
             System.Console.ReadKey();
         }
     }

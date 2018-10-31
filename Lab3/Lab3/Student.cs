@@ -8,9 +8,9 @@ namespace Lab3
 {
     class Student
     {
-        private string Name;
-        private int Grade = 0;
-        private Instructor Teacher = new Instructor();
+        public string Name;
+        public int Grade = 0;
+        public Instructor Teacher = new Instructor();
 
         public Student(string studentName, Instructor theirTeacher)
         {
@@ -19,12 +19,15 @@ namespace Lab3
         }
         public int SetGrade(int mygrade)
         {
-            this.Grade = mygrade;
+            this.Grade += mygrade;
             return this.Grade;
         }
         public void PrintStudent()
         {
-            System.Console.WriteLine(this.Name + " ," + this.Grade + ", Teacher: " + this.Teacher);
+            
+            System.Console.WriteLine(this.Name + " - Grade: " + this.Grade + ", Teacher: " + this.Teacher.Name + ", Course: " + this.Teacher.CourseName);
+            
         }
+        
     }
 }
