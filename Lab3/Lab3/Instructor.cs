@@ -28,7 +28,7 @@ namespace Lab3
         }
         public void ChangeGrade(Student student, int theirGrade)
         {
-            student.Grade = theirGrade;
+            student.SetGrade(theirGrade);
             System.Console.WriteLine(this.Name + " gave " + student.Name + " a grade of: " + theirGrade);
 
         }
