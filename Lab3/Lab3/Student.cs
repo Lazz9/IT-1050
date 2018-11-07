@@ -8,25 +8,25 @@ namespace Lab3
 {
     class Student
     {
-        public string Name;
-        public int Grade = 0;
-        public Instructor Teacher = new Instructor();
+        public string Name { get; set; }
+        public int Grade { get; set; }
+        public Instructor Teacher { get; set; }
 
         public Student(string studentName, Instructor theirTeacher)
         {
             this.Name = studentName;
             this.Teacher = theirTeacher;
+            this.Grade = 0;
         }
-        public int SetGrade(int mygrade)
+        public void SetGrade(int mygrade)
         {
-            this.Grade += mygrade;
-            return this.Grade;
+            this.Grade = mygrade;
         }
         public void PrintStudent()
         {
             
-            System.Console.WriteLine(this.Name + " - Grade: " + this.Grade + ", Teacher: " + this.Teacher.Name + ", Course: " + this.Teacher.CourseName);
-            
+            System.Console.Write(this.Name + " - Grade: " + this.Grade + ", Teacher: ");
+            this.Teacher.PrintTeacher();
         }
         
     }

@@ -21,7 +21,7 @@ namespace Lab3
             john.ChangeGrade(joe, 85);
             mike.ChangeGrade(melissa, 90);
             mike.ChangeGrade(matt, 92);
-
+            System.Console.WriteLine("");
             jane.PrintStudent();
             joe.PrintStudent();
             melissa.PrintStudent();

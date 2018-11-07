@@ -24,7 +24,7 @@ namespace Lab3
 
         public void PrintTeacher()
         {
-            System.Console.WriteLine(this.Name + ", teaches " + this.CourseName);
+            System.Console.WriteLine(this.Name + ", Course: " + this.CourseName);
         }
         public void ChangeGrade(Student student, int theirGrade)
         {
