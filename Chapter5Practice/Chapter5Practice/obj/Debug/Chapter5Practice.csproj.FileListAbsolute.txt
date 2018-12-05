@@ -1,0 +1,7 @@
+c:\users\s01156444\source\repos\Chapter5Practice\Chapter5Practice\bin\Debug\Chapter5Practice.exe.config
+c:\users\s01156444\source\repos\Chapter5Practice\Chapter5Practice\bin\Debug\Chapter5Practice.exe
+c:\users\s01156444\source\repos\Chapter5Practice\Chapter5Practice\bin\Debug\Chapter5Practice.pdb
+c:\users\s01156444\source\repos\Chapter5Practice\Chapter5Practice\obj\Debug\Chapter5Practice.csprojAssemblyReference.cache
+c:\users\s01156444\source\repos\Chapter5Practice\Chapter5Practice\obj\Debug\Chapter5Practice.csproj.CoreCompileInputs.cache
+c:\users\s01156444\source\repos\Chapter5Practice\Chapter5Practice\obj\Debug\Chapter5Practice.exe
+c:\users\s01156444\source\repos\Chapter5Practice\Chapter5Practice\obj\Debug\Chapter5Practice.pdb
